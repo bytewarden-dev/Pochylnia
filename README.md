@@ -63,10 +63,10 @@ Litera położenia jest wysyłana tylko wtedy, gdy się zmieni. Przy kilku aktyw
 
 ### Z komputera do Arduino
 
-| Komenda | Działanie                                  |
-|---------|--------------------------------------------|
-| `O`     | Ustawia wyjście zwory (D7) w stan wysoki.  |
-| `C`     | Ustawia wyjście zwory (D7) w stan niski.   |
+| Komenda | Działanie                                                              |
+|---------|------------------------------------------------------------------------|
+| `O`     | Ustawia wyjście zwory (D7) w stan wysoki. Zwolnienie elektro magnesu.  |
+| `C`     | Ustawia wyjście zwory (D7) w stan niski. Włączenie elektro magnesu.    |
 
 Każda odebrana linia (także `O` i `C`) jest dodatkowo wyświetlana na LCD: pierwsze 16 znaków w górnym wierszu, kolejne 16 w dolnym. Polskie znaki diakrytyczne nie są obsługiwane przez wyświetlacz HD44780.
 
